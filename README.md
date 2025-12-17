@@ -59,7 +59,7 @@ cloud-provider-analytics/
 - Google Colab
 - Cassandra / AstraDB
 - Parquet
-- Data Lakehouse pattern
+- Lakehouse pattern basado en Parquet
 
   🧱 Arquitectura del pipeline
 
@@ -105,7 +105,7 @@ Se generan datasets limpios y enriquecidos:
 - Conversión de unidades y costos
 
 También se construye:
-org_daily_usage_by_service
+org_daily_usage_by_service dataset agregado derivado de usage_enriched
 
 Con agregaciones por:
 - Cliente
@@ -136,7 +136,7 @@ Incluye:
 - tokens generados
 - emisiones estimadas
 
-⭐ cost_anomalies_by_org_service_day
+⭐ cost_anomaly_mart
 Contiene:
 - costo diario por servicio
 - features estadísticos
