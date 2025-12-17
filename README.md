@@ -1,7 +1,7 @@
 Cloud Provider Analytics — Data Lakehouse
 
 Proyecto Final – Minería de Datos II
-Autora: Agustina Nogueira
+Autor: Tomás Suarez
 Tecnologías: PySpark, Structured Streaming, Delta-like Lakehouse, AstraDB (Cassandra)
 
 Este proyecto implementa un pipeline end-to-end para un proveedor de servicios cloud ficticio.
